@@ -1,0 +1,16 @@
+{
+  "name": "zombie-party",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "watch": "npx watch-http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "watch-http-server": "^0.7.6"
+  }
+}

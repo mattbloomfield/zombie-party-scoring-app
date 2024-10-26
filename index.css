@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Creepster;
+    src: url(fonts/Creepster/Creepster-Regular.ttf);
+}
+@font-face {
+    font-family: RubikWetPaint;
+    src: url(fonts/Rubik_Wet_Paint/RubikWetPaint-Regular.ttf);
+}
+
+body {
+    font-family: Creepster, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B5B69C;
+    font-size: 28px;
+    color: #422020;
+}
+
+#Scoreboard {
+    width: 100%;
+    border-collapse: collapse;
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.tr {
+    display: contents;
+}
+.tr .td {
+    padding: .5rem;
+    text-align: center;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.th {
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    font-family: RubikWetPaint;
+    margin-bottom: 1rem;
+}
+
+.point {
+    border: 1px solid #6D7162;
+    background: #C5C6AC;
+    font-size: 44px;
+}
+
+.name {
+    color: #33372A;
+}
+.total {
+    color: #9d2121;
+    font-size: 36px;
+}
+
+.invisible {
+    visibility: hidden;
+}
